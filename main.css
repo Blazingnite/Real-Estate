@@ -74,6 +74,7 @@ margin: 50px;
 .intro-button{
   width: 80%;
   height: 100%;
+  border-radius: 15px;
   border: 10px solid limegreen;
   background-color: limegreen;
   font-weight: bolder;
@@ -134,13 +135,11 @@ color: lightslategray;
 .form{
   width: 100%;
   height: 100%;
-  border: 10px solid red;
   padding: 50px;
 }
 .form-box{
   width: 100%;
   height: 100%;
-  border: 10px solid blue;
 }
 .header-form img{
   width: 100%;
@@ -158,4 +157,87 @@ color: lightslategray;
 .form-text input{
   width: 100%;
   height: 100px;
+}
+.submit{
+  width: 80%;
+  height: 100%;
+  color: white;
+  margin: 50px auto 50px auto;
+  border: 10px solid limegreen;
+  background-color: limegreen;
+  font-weight: bolder;
+  padding: 50px;
+  font-size: 5vw;
+  text-align: center;
+}
+.show-case{
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.intro-show{
+  width: 80%;
+  height: 100%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+}
+.intro-show h2{
+  font-size: 6vw;
+  font-weight: bolder;
+  font-stretch: semi-expanded;
+}
+.intro-show p{
+  font-size: 4vw;
+}
+.display{
+  width: 80%;
+  height: 100%;
+  border: 10px solid blue;
+  padding: 50px;
+  margin: 50px auto 50px auto;
+}
+.loading-dots{
+  width: 80%;
+  height: 100%;
+  border: 10px solid blue;
+  padding: 50px;
+  margin: 50px auto 50px auto;
+}
+#home-img{
+  width: 100%;
+  height: 100%;
+  border: 10px solid purple;
+  padding: 50px;
+}
+#info{
+  width: 100%;
+  height: 100%;
+  border: 10px solid orange;
+  padding: 50px;
+}
+.vid{
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  background-color: whitesmoke;
+}
+.intro-text h2{
+font-size: 7vw;
+font-weight: bolder;
+text-align: center;
+margin: 200px 0 50px 0;
+}
+.intro-text p{
+font-size: 4vw;
+text-align: center;
+margin: 50px 0 100px 0;
+}
+.video{
+  width: 80%;
+  height: 500px;
+  margin: 150px auto 50px auto;
+}
+.video iframe{
+  width: 100%;
+  height: 100%;
 }
