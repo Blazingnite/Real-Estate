@@ -17,32 +17,39 @@ html {
   border: 10px solid red;
   padding: 50px;
 }
-#box-header{
+.box-header{
   width: 100%;
   height: 225px;
-  padding: 0;
+  display: table;
+  width: 100%;
+  text-align: center;
 }
 .flex-container{
   display: flex;
   flex-direction: column;
 }
+.header-row{
+  padding: 0;
+}
 #logo{
-  width: 38%;
+  width: 20%;
   height: 100%;
-  display: flex;
-  flex-direction: row;
 }
 #logo-img{
-margin: 50px;
+margin-left: 60px;
 }
 #company-name{
-  margin: 50px 50px 50px 0;
-  padding: 50px 50px 50px 0;
+  margin-top: 50px;
+  margin-left: 30px;
   color: GhostWhite;
-
+  vertical-align: middle;
 }
 #company-name h2{
   font-size: 7vw;
+}
+span {
+  display: table-cell;
+  vertical-align: middle;
 }
 .intro-box {
   width: 100%;
@@ -240,4 +247,88 @@ margin: 50px 0 100px 0;
 .video iframe{
   width: 100%;
   height: 100%;
+}
+.testimonials{
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+.intro-testimonials{
+  width: 100%;
+  height: 100%;
+  border: 10px solid blue;
+  padding: 50px;
+}
+.intro-testimonials h2{
+  font-size: 6vw;
+}
+.intro-testimonials p{
+  font-size: 4vw;
+}
+.testimonial-carousel{
+  width: 100%;
+  height: 100%;
+  border: 10px solid blue;
+  padding: 50px;
+}
+.testimonial-carousel{
+  width: 100%;
+  height: 100%;
+  border: 10px solid purple;
+  padding: 50px;
+}
+.footer{
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  background-color: #333;
+}
+.logo2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+  #logo-img2{
+    width: 100%;
+    text-align: center;
+  }
+  .logo2 img{
+    width: 30vw;
+    min-height: 24vw;
+  }
+/* margin: 50px auto 50px auto;   */
+  #company-name2{
+    color: GhostWhite;
+    text-align: center;
+    font-size: 11vw;
+  }
+.center-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+.footer-text{
+  display: inline-block;
+  padding-right: 10px;
+}
+.footer-text h1{
+  font-size: 7vw;
+  padding-top: 50px;
+  padding-right: 20px;
+  color: GhostWhite;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transform: scaleX(1.1);
+  transform-origin: 0 0;
+}
+#footer-filler{
+  font-size: 5vw;
+  color: Gainsboro;
+  padding: 50px;
+  text-align: center;
+  font-weight: 600;
 }
